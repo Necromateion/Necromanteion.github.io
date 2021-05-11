@@ -266,18 +266,18 @@
 
 /* background colour */
 .menu-dark { 
-	background-color: #183153; 
+	background-color: #ffbb69; 
 	transition: all .5s ease-in-out
 }
 
 /* menu links */
 .menu-dark ul li a:link,  .menu-dark ul li a:visited { color: #fff }
-.menu-dark ul li a:hover, .menu-dark ul li a:active  { color: #b8b8b8 }
+.menu-dark ul li a:hover, .menu-dark ul li a:active  { color: #f15c41 }
 
 /* cta button */
 .menu-dark ul li a.btn-cta:link,
 .menu-dark ul li a.btn-cta:visited { 
-    background-color: #34cdf1;
+    background-color: #ffbb69;
     color: #fff;
     border-color:#fff
 }
@@ -285,7 +285,7 @@
 .menu-dark ul li a.btn-cta:hover,
 .menu-dark ul li a.btn-cta:active { 
     background-color: #fff;
-    color: #34cdf1;
+    color: #ffbb69;
     border-color:#fff
 }
 
@@ -313,18 +313,18 @@ a[href^=tel] { text-decoration: none; color: #fff }
 
 .menu-dark.flyout-menu h5 a:hover, 
 .menu-dark.flyout-menu h5 a:active {
-    border-bottom-color: #34cdf1;
+    border-bottom-color: #ffbb69;
 }
 
 /* profile image border colour */
-.menu-dark.flyout-menu div.fly-out-profile-box img { border-color: #34cdf1 }
+.menu-dark.flyout-menu div.fly-out-profile-box img { border-color: #ffbb69 }
 
 /* contact icons */
 .menu-dark.flyout-menu .fly-out-social-icons a i { color:#fff }
 
 .menu-dark ul li .btn-cta:any-link {
-    border-color: #183153 !important;
-    background-image: linear-gradient(to right,#3ec7e0,#526bf4); color: #fff !important;   
+    border-color: #ffbb69 !important;
+    background-image: linear-gradient(to right,#ffbb69,#f15c41); color: #fff !important;   
 } 
 
 .menu-dark ul li :is(.btn-cta:focus, .btn-cta:hover, .btn-cta:active)  {

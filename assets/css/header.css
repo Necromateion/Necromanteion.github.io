@@ -2,7 +2,7 @@
 /* ======= HERO BLOCK, FLEXBOX TWO COLUMNS ===== */
 .hero-block-two-columns {
     display: flex; justify-content: space-between; flex-wrap: wrap;
-    background-color: #183153;
+    background-color: #fff;
 }
 
 @media (min-width: 1200px) {
@@ -64,7 +64,7 @@
 
 .hero-block-two-columns .item-2 h1 {
     font-family: 'Poppins', sans-serif;
-    color: #fff;
+    color: #ffbb69;
 	font-weight: 600; 
 	line-height: 1.1;
     margin-bottom: 20px;
@@ -74,7 +74,7 @@
 
 .hero-block-two-columns .item-2 h2 { 
 	font-weight: 300; 
-	color: #fff;
+	color: #ffbb69;
     line-height: 1.5;
 	margin-bottom: 30px;    
 	font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (1600 - 320))); 
@@ -105,17 +105,17 @@
 
 /* Solid buttons */
 .container-btn .btn-solid:any-link {
-    background-color: #50e3c2; border-color:  #50e3c2; color: #222;
+    background-color: #a0a3a3; border-color:  #fff; color: #a0a3a3;
 }
 
 .container-btn :is(.btn-solid:focus, .btn-solid:hover,.btn-solid:active) {
-    background-color: #222; border-color: #222; color: #fff;
+    background-color: #a0a3a3; border-color: #fff; color: #a0a3a3;
 }
 
 /* Gradient buttons */
 .container-btn .btn-gradient:any-link {
-    border-color: #183153;
-    background-image: linear-gradient(to right,#3ec7e0,#526bf4); color: #fff;
+    border-color: #fff;
+    background-image: linear-gradient(to right,#ffbb69,#f5836c); color: #fff;
 } 
 
 .container-btn :is(.btn-gradient:focus, .btn-gradient:hover, .btn-gradient:active)  {
@@ -125,11 +125,11 @@
 
 /* Ghost buttons */
 .container-btn .btn-ghost:any-link {
-    border: solid 2px #fff; color: #fff; background-color: transparent; 
+    border: solid 2px #ffbb69; color: #ffbb69; background-color: transparent; 
 } 
 
 .container-btn :is(.btn-ghost:focus, .btn-ghost:hover, .btn-ghost:active)  {
-    background-color: #222; border-color: #222; color: #fff;
+    background-color: #f15c41; border-color: #fff; color: #fff;
 } 
 
 .container-btn .btn-ghost i { color: #fff }

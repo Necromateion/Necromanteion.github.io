@@ -1,9 +1,9 @@
 
 /* Default font and colours */
-h1, h2, h3 { color: #fff}
-p, li { color: #fff }
-.bg-light-slate { background-color: #515e7b }
-.bg-pastel-grey { background-color: #edf5f1 }
+h1, h2, h3 { color: #ffbb69}
+p, li { color: #ffbb69 }
+.bg-light-slate { background-color: #fff }
+.bg-pastel-grey { background-color: #fff }
 
 
 /* ==== CONTAINER FOR SINGLE COLUMN OF CONTENT ==== */
@@ -61,14 +61,14 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 }
  
 a.button-solid:link, .button-solid:visited {
-    border-color:#34cdf1;
+    border-color:#fff;
     color: #000;
-    background-color: #34cdf1;
+    background-color: #ffbb69;
 } 
  
 a.button-solid:hover, .button-solid:active {
-    border-color:#183153;
-    background-color: #183153;
+    border-color:#fff;
+    background-color: #f15c41;
     color: #fff
 }
  
@@ -105,13 +105,13 @@ a.fancy-link:hover, a.fancy-link:active {
 }
 
 a.fancy-link:link, a.fancy-link:visited { 
-    color: #34cdf1; 
-    border-bottom-color:#34cdf1
+    color: #ffbb69; 
+    border-bottom-color:#ffbb69
 }
 
 a.fancy-link:hover, a.fancy-link:active { 
-    color: #fff; 
-    border-bottom-color: #fff
+    color: #f15c41; 
+    border-bottom-color: #f15c41
 }
 
 /* Buttons: corner styles */
@@ -209,7 +209,7 @@ img.image-circle {
 }
 
 .container-flexbox .item-1 h2 {
-    color: #34cdf1;
+    color: #ffbb69;
     line-height: 1.2; margin-bottom: 20px;
     letter-spacing:-1px;
     font-weight: 600;
@@ -219,7 +219,7 @@ img.image-circle {
 .container-flexbox .item-1 p {
     line-height: 1.7;
     font-size: calc(18px + (26 - 18) * ((100vw - 320px)/(1600 - 320)));
-    color: #fff;
+    color: #ffbb69;
 }
 
 @media all and (max-width:767px) {
@@ -231,13 +231,13 @@ img.image-circle {
 .container-flexbox .item-3 p {
     line-height: 1.5; margin-bottom: 40px;
     font-size: calc(16px + (18 - 16) * ((100vw - 320px)/(1600 - 320)));
-    color: #fff;
+    color: #ffbb69;
 }
 
 .container-flexbox .item-2 h3,
 .container-flexbox .item-3 h3 {
     line-height: 1.2; margin-bottom: 12px;
-    color:#34cdf1
+    color:#ffbb69
 }
 
 /* Centre-align text within two, three and four columns on mobiles */
@@ -273,7 +273,7 @@ img.image-circle {
 /* All screens */
 .container-contact-form { 
 	text-align: center; 
-	background-color: #183153
+	background-color: #ffbb69
 }
 
 /* Desktop */
@@ -377,9 +377,9 @@ img.image-circle {
 	font-weight: bold;
     padding: 18px 28px;
     font-size: 18px;
-    border-color:#34cdf1;
+    border-color:#222;
     color: #000;
-    background-color: #34cdf1;
+    background-color: #ffbb69;
 }
 
 
